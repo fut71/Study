@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="1. 충돌">
+      <UniqueIdentifier>{b0477977-f2c2-47b6-af1b-9b7dc8133e59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. 공간 분할">
+      <UniqueIdentifier>{1f8a62cc-3e01-4474-ac94-88db96056b2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. 경로탐색">
+      <UniqueIdentifier>{37369906-94e6-4c3e-ac26-ed964f57a350}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. AI">
+      <UniqueIdentifier>{cdf97846-a8fa-4672-94ec-3bd0fe7cae7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="5. 절차적 생성">
+      <UniqueIdentifier>{03617415-fe86-4efb-9885-053289455b3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="render">
+      <UniqueIdentifier>{cc904f8c-a110-4361-9011-f92d86c7f96b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="render\render3d_dx11">
+      <UniqueIdentifier>{1a8d9fe6-e330-4b35-b595-25e2e827d193}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="render\render2d_sfml">
+      <UniqueIdentifier>{99ae213b-23e6-4d8c-af20-5211cff90f31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core">
+      <UniqueIdentifier>{39e7638d-9c22-4b7f-9eac-ef6523989b8d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SAT.cpp">
+      <Filter>1. 충돌</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
