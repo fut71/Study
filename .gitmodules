@@ -1,0 +1,6 @@
+[submodule "AlStudy/External/SFML"]
+	path = AlStudy/External/SFML
+	url = https://github.com/SFML/SFML.git
+[submodule "AlStudy/External/DirectXTK"]
+	path = AlStudy/External/DirectXTK
+	url = https://github.com/microsoft/DirectXTK.git

@@ -28,10 +28,24 @@
     <Filter Include="core">
       <UniqueIdentifier>{39e7638d-9c22-4b7f-9eac-ef6523989b8d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="scene">
+      <UniqueIdentifier>{0cc7f4f6-3d71-4732-aa77-c7c1f3b1909d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="SAT.cpp">
       <Filter>1. 충돌</Filter>
     </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="core\algorithms.hpp">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="SAT.h">
+      <Filter>1. 충돌</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
